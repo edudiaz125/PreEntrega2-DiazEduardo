@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #000000cb;
+}
+
+#index{
+    background-image: linear-gradient(to top, #000000 0%, #e82424 100%);
+}
+
+.hero {
+    background-image: url(../img/fiesta.jpg) ;
+    height: 50vh;
+}
+
+h2{
+    place-items: center;
+    display: grid;
+    background-color: black;
+    color: black;
+}
+h2:hover {
+    width: 60%;
+    background-color: beige;
+    color: rgb(253, 238, 238);
+    background-color: rgb(223, 31, 31);
+}
+
+h2{
+    transition: all 1s;
+}
+p{
+    text-align: center;
+    padding:  12px;
+}
+
+
+.carousel-item {
+    height: 110vh;
+    height: auto;
+}
+
+footer .container{
+    height: auto;
+    display: flex;
+}
+
+/* estilos pics */
+.pic {
+    -webkit-animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 0.5s;
+}
+
+.pic1 {
+    -webkit-animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 1.5s;
+}
+
+.pic2 {
+    -webkit-animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 2s;
+}
+
+.pic3 {
+    -webkit-animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 2.5s;
+}
+
+.pic4 {
+    -webkit-animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 3s;
+}
+
+.pic5 {
+    -webkit-animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 3.5s;
+}
+
+.pic6 {
+    -webkit-animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 4s;
+}
+
+.pic7 {
+    -webkit-animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 4.5s;
+}
+.pic8 {
+    -webkit-animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 5s;
+}
+@-webkit-keyframes tilt-in-fwd-tr{
+    0% {
+        -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+        transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+        opacity: 0
+    }
+    100% {
+        -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+        transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+        opacity: 1
+    }
+    }
+
